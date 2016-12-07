@@ -31,7 +31,7 @@ To find the IR Signal Codes for your remote
  - Open *sound.pde* using Processing and click run.
  - Voila.
 
-Source Code - Arduino :
+**Source Code - Arduino** :
 
 ```
 #include "IRremote.h"
@@ -131,12 +131,11 @@ Serial.write(1);
 /* ( THE END ) */
 
 ```
-Source Code - Processing : 
+**Source Code - Processing** : 
 
 ```
 import processing.serial.*;
 Serial myPort;  // Create object from Serial class
-String inBuffer;// Data received from the serial port
 import ddf.minim.*;
  int val1=0;
 Minim minim;
